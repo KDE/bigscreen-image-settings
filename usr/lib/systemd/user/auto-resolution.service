@@ -1,0 +1,11 @@
+[Unit]
+Description=AutoResolution Service
+
+
+[Service]
+ExecStart=/usr/bin/python /usr/bin/autoResolution.py
+Restart=on-failure
+Type=notify
+
+[Install]
+WantedBy=default.target
