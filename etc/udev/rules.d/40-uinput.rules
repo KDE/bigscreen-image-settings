@@ -1,2 +1,1 @@
-
-SUBSYSTEM=="misc", KERNEL=="uinput", MODE="0660", GROUP="uinput"
+SUBSYSTEM=="misc", KERNEL=="uinput", MODE="0660", GROUP="video"
